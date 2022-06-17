@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/normalize.css">
-  <link rel="stylesheet" href="./style/main.min.css">
-  <!-- <link rel="stylesheet" href="./style/main.css"> -->
-  <title>Document</title>
+  <!-- <link rel="stylesheet" href="./style/main.min.css"> -->
+  <link rel="stylesheet" href="./style/main.css">
+  <title>Pixer</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
        <img class="header-logo" src="./img/logo.svg" alt="logo" width="58" height="20">
        <ul class="header-list">
         <li class="header-item"><a class="header-link" href="#">Bosh sahifa</a></li>
-        <li class="header-item"><a class="header-link" href="#">Xizmatlar</a></li>
+        <li class="header-item"><a class="header-link" href="./service.html">Xizmatlar</a></li>
         <li class="header-item"><a class="header-link" href="#">Portfolio</a></li>
         <li class="header-item"><a class="header-link" href="#">Jamoa</a></li>
         <li class="header-item"><a class="header-link" href="#">Blog</a></li>
@@ -44,6 +44,7 @@
           <iframe class="hero-video" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
+      
     </div>
   </section>
 </header>
@@ -66,10 +67,94 @@
         <li class="service-item-bottom"><img class="service-img" src="./img/design-illustration.png" alt="web designer" width="178" height="130"><h3 class="service-item-heading">Grafik dizayn</h3><p class="service-item-text">lorem ipsum</p></li>
         <li class="service-item-bottom-two"><img class="service-img" src="./img/crm-illustration.png" alt="crm" width="169" height="130"><h3 class="service-item-heading">CRM tizimlar</h3><p class="service-item-text">lorem ipsum</p></li>
       </ul>
+      <div class="hero-button-content">
+      <button class="hero-button" type="button">Buyurtma berish</button>
+      <a class="hero-link" href="#">Xizmatlar sahifasiga o’tish</a>
+    </div>
     </div> 
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="work-info">
+        <div class="work-info-content">
+          <h2 class="work-info-content-heading">Biz qanday ishlaymiz?</h2>
+          <p class="work-info-content-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+        </div>
+        <ul class="work-info-list">
+        <li class="work-info-item"><img class="work-info-img" src="./img/website.png" alt="requirement" width="300" height="278"><div class="work-info-item-content"><h3 class="work-info-item-heading">Talablarni aniqlab chiqamiz</h3><p class="work-info-item-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p></div></li>
+        <li class="work-info-item"><img class="work-info-img" src="./img/Suggestions.png" alt="suggestions" width="300" height="224"><div class="work-info-item-content"><h3 class="work-info-item-heading">Bir necha yechimlarni taklif qilamiz</h3><p class="work-info-item-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p></div></li>
+        <li class="work-info-item"><img class="work-info-img" src="./img/project-time.png" alt="work-time" width="300" height="258"><div class="work-info-item-content"><h3 class="work-info-item-heading">Loyiha uchun vaqt belgilaymiz</h3><p class="work-info-item-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p></div></li>
+        <li class="work-info-item"><img class="work-info-img" src="./img/quality.png" alt="quality" width="300" height="171"><div class="work-info-item-content"><h3 class="work-info-item-heading">A’lo sifat bilan bajarib topshiramiz</h3><p class="work-info-item-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p></div></li>
+        <li class="work-info-item"><img class="work-info-img" src="./img/support.png" alt="support" width="300" height="232"><div class="work-info-item-content"><h3 class="work-info-item-heading">Qo’llab-quvvatlab boramiz</h3><p class="work-info-item-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p></div></li>
+        </ul>
+        <button class="work-info-button" type="button">Buyurtma berish</button>
+      </div>
+
     </div>
   </section>
 </main>
+
+<footer>
+  <section>
+    <div class="container">
+
+      <div class="order">
+        <h2 class="order-heading">Buyurtma berish</h2>
+        <p class="order-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+        <form class="order-form" action="https://echo.htmlacademy.ru/">
+         <input class="order-input" type="text" name="order-name" placeholder="Ismingiz" required>
+         <input class="order-input" type="tel" name="order-name" placeholder="Telefon raqamingiz" required>
+         <select class="order-select" name="order-service" id="order-service">
+          <option value="Xizmat_turi" disabled selected>Xizmat turi</option>
+          <option value="Yetkazib_berish">Vebsayt tuzish</option>
+          <option value="Smm">Smm</option>
+          <option value="Grafik_dizayn">Grafik dizayn</option>
+          <option value="CRM_tizim">CRM tizimlar</option>
+         </select>
+         <button class="order-button" type="submit">Buyurtma berish</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+
+    <div class="container">
+
+      <div class="info-site">
+       <div class="info-site-content">
+        <h2 class="info-site-content-heading">
+          Copyright 2020
+        </h2>
+        <p class="info-site-content-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+       </div>
+
+       <ul class="info-site-list">
+        <li class="info-site-item"><h3 class="info-site-item-title">Sayt sahifalari</h3></li>
+        <li class="info-site-item"><a class="info-site-item-link" href="#">Bosh sahifa</a> </li>
+        <li class="info-site-item"><a class="info-site-item-link" href="./service.html">Xizmatlar</a></li>
+        <li class="info-site-item"><a class="info-site-item-link" href="#">Portfolio</a></li>
+        <li class="info-site-item"><a class="info-site-item-link" href="#">Jamoa</a></li>
+        <li class="info-site-item"><a class="info-site-item-link" href="#">Blog</a></li>
+        <li class="info-site-item"><a class="info-site-item-link" href="#">Kontaktlar</a></li>
+       </ul>
+
+       <ul class="info-site-list-right">
+        <li class="info-site-item-right"><h3 class="info-site-item-right-title">Biz internetda</h3></li>
+        <li class="info-site-item-right"><a class="info-site-item-right-link" href="#"><img class="info-site-item-right-img" src="./img/telegram.svg" alt="telegram" width="22" height="24"></a>Telegram</li>
+        <li class="info-site-item-right"><a class="info-site-item-right-link" href="#"><img class="info-site-item-right-img" src="./img/facebook.svg" alt="facebook" width="22" height="24">Facebook</a></li>
+        <li class="info-site-item-right"><a class="info-site-item-right-link" href="#"><img class="info-site-item-right-img" src="./img/instagram.svg" alt="instagram" width="22" height="24">Instagram</a></li>
+       </ul>
+      </div>
+    </div>
+
+  </section>
+</footer>
   
 </body>
 </html>
